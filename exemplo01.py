@@ -16,3 +16,11 @@ else:
         print('Satisfatório.')
     else:
         print('Pratique mais.')
+
+# Operadores AND e OR
+usuario = input('Nome: ')
+senha = input( 'Senha: ')
+if usuario == "admin" and senha == "1234":
+    print('login realizado com sucesso') 
+else:
+    print('Usuário ou senha incorreto')
